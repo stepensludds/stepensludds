@@ -1,21 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Title</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+<html>
 <body>
-    <header>
-        <!-- Header content goes here -->
-        <p1>test</p1>
-    </header>
-    <main>
-        <!-- Main content goes here -->
-    </main>
-    <footer>
-        <!-- Footer content goes here -->
-    </footer>
-    <script src="script.js"></script>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  Select file to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload File" name="submit">
+</form>
+
 </body>
+</html>
